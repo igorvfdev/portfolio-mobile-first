@@ -1,0 +1,94 @@
+
+body{
+  background: #ffffff;
+  height: 100%;
+}
+
+header{
+  width: 100%;
+  height: 200px;
+}
+
+.linha-horizontal{
+width: 100%;
+background: linear-gradient(to left, #ffffff 20%, #cccccc 100%);
+padding: 1px;
+}
+
+.box-titulo{
+   position: absolute;
+   float: left;
+   top: 4%;
+   margin-left: 30px;
+}
+
+.titulo-principal{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.titulo-secundario{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menu{
+  position: absolute;
+  right: 0;
+  top: 4%;
+  margin-right: 10px;
+  background: #ffffff;
+}
+
+main{
+  width: 100%;
+}
+
+.box-imagem{
+  width: 70%;
+  float: left;
+  margin: 15% 0 0 15%;
+  background: linear-gradient(to bottom left, white 40%, #cccccc 100%);
+}
+
+.titulo-terciario{
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 50px;
+}
+
+.img-corpo{
+  width: 100%;
+  height: 100%;
+}
+
+.social-midias{
+  position: fixed;
+  width: 40px;
+  height: 400px;
+  right: 2%;
+  top: 150px;
+}
+
+.linha-vertical{
+  width: 1px;
+  height: 300px;
+  padding: 0.5px;
+  background: linear-gradient(to bottom, #ffffff 20%, #cccccc 100%);
+  margin: 0 35%;
+}
+
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background: url(/assets/black-wall.jpg);
+}
+
+footer p{
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 20px;
+}

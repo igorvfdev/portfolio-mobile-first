@@ -1,0 +1,112 @@
+html{
+    height: auto;
+}
+
+body{
+    background:#ffffff;
+    height: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  header{
+    width: 100%;
+    height: 150px;
+  }
+
+  .linha-horizontal{
+    width: 100%;
+    background: linear-gradient(to left, #ffffff 20%, #cccccc 100%);
+    padding: 1px;
+    }
+
+  .box-titulo{
+    position: absolute;
+    float: left;
+    top: 4%;
+    margin-left: 30px;
+ }
+ 
+ .titulo-principal{
+   font-weight: 700;
+   font-size: 30px;
+ }
+ 
+ .titulo-secundario{
+   font-weight: 500;
+   font-size: 20px;
+ }
+
+ .titulo-terciario{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px 0;
+    text-align: center;
+  }
+ 
+ .menu{
+   position: absolute;
+   right: 0;
+   top: 4%;
+   margin-right: 10px;
+   background: #ffffff;
+ }
+ 
+ main{
+   width: 100%;
+ }
+
+ strong{
+     font-weight: 800;
+ }
+
+.about-me{
+     width: 80%;
+     margin: 0 auto 50px;
+     font-weight: 500;
+     text-align: justify;
+    }
+
+.titulo-skills{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.hard-img{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto 50px;
+}
+
+.subtitulo-skills{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: linear-gradient(to top right, #cccccc 5%, #ffffff 50%);
+}
+
+.about-soft p{
+    width: 85%;
+    margin: 0 auto 30px;
+    text-align: justify;
+    letter-spacing: -0.5px;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 100px;
+    background: url(/assets/black-wall.jpg);
+  }
+  
+  footer p{
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 20px;
+  }
