@@ -1,4 +1,8 @@
 
+html{
+  height: 100%;
+}
+
 body{
   background: #ffffff;
   height: 100%;
@@ -47,7 +51,7 @@ main{
 .box-imagem{
   width: 70%;
   float: left;
-  margin: 15% 0 0 15%;
+  margin: 15% 0 15% 15%;
   background: linear-gradient(to bottom left, white 40%, #cccccc 100%);
 }
 
@@ -81,7 +85,7 @@ main{
 
 footer{
   width: 100%;
-  position: relative;
+  position: absolute;
   bottom: 0;
   background: url(/assets/black-wall.jpg);
 }
